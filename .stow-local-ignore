@@ -1,0 +1,17 @@
+^/README.*
+^/LICENSE.*
+
+\.git
+\.gitignore
+\.gitmodules
+
+/externalScripts
+/assets
+
+/install.sh
+/progs.md
+/servers.sh
+/progs.sh
+
+\.config/kew/kewlibrary
+\.config/kew/lastPlaylist.m3u
