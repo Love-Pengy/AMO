@@ -5,6 +5,8 @@
 \.gitignore
 \.gitmodules
 
+\.windowsConfig
+
 /externalScripts
 /assets
 
@@ -13,5 +15,3 @@
 /servers.sh
 /progs.sh
 
-\.config/kew/kewlibrary
-\.config/kew/lastPlaylist.m3u
