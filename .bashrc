@@ -119,10 +119,12 @@ export PATH="$PATH:/opt/nvim-linux64/bin"
 export PATH="$PATH:$HOME/.cargo/bin"
 
 # change sudo -e editor to nvim
-export EDITOR="/opt/nvim-linux64/bin/nvim"
+export EDITOR="/usr/local/bin/nvim"
 
 # Export Compile Commands For Cmake projs
 export CMAKE_EXPORT_COMPILE_COMMANDS=1
+ 
+export DOCKER_HOST=$(docker context inspect default | jq -r '.[0].Endpoints.docker.Host')
 
 # cycle through if hitting tab
 bind 'TAB:menu-complete'

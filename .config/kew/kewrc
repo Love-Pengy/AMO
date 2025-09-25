@@ -5,11 +5,11 @@
 [miscellaneous]
 
 path=/home/bee/Music
-version=3.4.1
+version=3.5.0
 allowNotifications=1
 hideLogo=0
 hideHelp=0
-lastVolume=100
+lastVolume=5
 
 # Cache: Set to 1 to use cache of the music library directory tree for faster startup times.
 cacheLibrary=1
@@ -85,12 +85,12 @@ visualizerBarWidth=2
 
 # Current values: 
 
-progressBarElapsedEvenChar=━
-progressBarElapsedOddChar=━
-progressBarApproachingEvenChar=━
-progressBarApproachingOddChar=━
-progressBarCurrentEvenChar=━
-progressBarCurrentOddChar=━
+progressBarElapsedEvenChar= 
+progressBarElapsedOddChar= 
+progressBarApproachingEvenChar=•
+progressBarApproachingOddChar=·
+progressBarCurrentEvenChar=c
+progressBarCurrentOddChar=C
 
 [colors]
 
